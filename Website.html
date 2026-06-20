@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Design</title>
+     <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="Layout2.css">
+    <style>
+        *{
+    margin: 0px;
+}
+body {
+    background-color: #f5f5f5;
+}
+
+.header {
+    background: #ddd;
+    padding: 15px;
+    text-align: center;
+}
+
+.logo>img{
+    height: 100px;
+    width: 100px;
+    align-content: center;
+}
+.title {
+    color: tomato;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.title>p{
+    text-align: center;
+    color: cadetblue;
+}
+
+/* Menu */
+.menu {
+    background: #444;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Main Section */
+.main {
+    min-height: 300px;
+}
+
+/* Sidebar */
+.sidebar {
+    background:rgb(123, 155, 171);
+    padding: 10px;
+}
+.sidebar ul li a{
+    color: orangered;
+}
+
+/* Content */
+.content {
+    background:tomato;
+    padding: 20px;
+    text-align: left;
+    font-size: 20px;
+}
+.footer {
+    background: #1e1e2f;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    margin-bottom: 0%;
+}
+
+.footer-section h2 {
+    margin-bottom: 0%;
+    color: #00bcd4;
+}
+
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 8px 0;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #00bcd4;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    background: #141422;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.footer iframe {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+    </style>
+</head>
+<body>
+
+<div class="container border">
+
+    <div class="row header">
+        <div class="col-sm-2 logo">
+            <img src="logo.jpeg"/>
+        </div>
+        <div class="col-sm-10 title">B.K.N.S Govt.Polytechnic
+        <p>Welcome to Braj Kishor Narayan Singh Government Polytechnic, Gopalganj (BKNS GP) — a premier government institute dedicated to quality technical education in Bihar.</p>
+        </div>
+    </div>
+
+    <!-- Menu Bar -->
+    <div class="row menu">
+        <div class="col-sm-12">Menu Bar</div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="row main">
+
+        <!-- Left Sidebar -->
+        <div class="col-sm-2 sidebar">
+            <h5>Quick Links</h5>
+              <ul>
+                <li><a href="https://bknsgp.polytropicservices.com/">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Academics</a></li>
+                <li><a href="#">Facilities & Services</a></li>
+                <li><a href="#">Login</a></li>
+              </ul>
+            
+        </div>
+
+        <div class="col-sm-8 content">
+            <h1 align="center">About Us</h1>
+            <p>BKNS Government Polytechnic, Gopalganj is a leading diploma engineering institute under the Department of Science & Technology, Government of Bihar. The institute offers modern infrastructure, experienced faculty, and a student-friendly learning environment.
+            With a strong focus on technical excellence, we prepare students to meet industry demands and build successful careers in engineering fields.</p><hr>
+
+            <h1 align="center" >Course Offered</h1>
+            <p>We offer 3-year diploma courses in the following engineering branches:
+              <ul>
+                 <li>Civil Engineering</li>
+                 <li>Electrical Engineering</li>
+                 <li>Electronics Engineering</li>
+                 <li>Mechanical Engineering</li>
+                 <li>Computer Science Engineering</li>
+              </ul>
+                Admission is based on the DCECE (Diploma Entrance Exam) conducted by the Bihar Government. �</p><hr>
+                <h1 align="center">Facilities</h1>
+                <p>Our campus provides modern facilities to ensure a great learning experience:
+              <ul>
+                   <li>Well-equipped Laboratories</li>
+                   <li>Digital Library</li>
+                   <li>Digital Library</li>
+                   <li>Boys & Girls Hostel</li>
+                   <li>Sports & Playground</li>
+                   <li>Computer Labs & Wi-Fi</li>
+                   <li>Canteen & Medical Facility</li>
+                   <li>Auditorium & Workshop</li>
+                  </ul>
+            The campus is spread across a large area with academic and administrative buildings.</p><hr>
+            <h1 align="center">🎯 Mission & Vision</h1>
+               <h2>Our Mission:</h2>
+               <p>To provide quality technical education and develop skilled, ethical, and innovative engineers.</p>
+               <h2>Our Vision:</h2>
+               <p>To become a leading polytechnic institute in Bihar known for academic excellence and industry readiness.</p>
+
+        </div>
+
+        <div class="col-sm-2 sidebar">
+            <h5>Quick Links</h5>
+            <ul>
+                <li><a href="https://www.bknsgpgopalganj.org.in/image-galleries/">Photo Gallery</a></li>
+                <li><a href="https://www.bknsgpgopalganj.org.in/facilities-services/placement/">Placement</a></li>
+                <li><a href="">Academic Calendar</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+   <footer class="footer">
+    <div class="footer-container">
+        
+        <!-- About -->
+        <div class="footer-section">
+            <h2>BKNS GP Gopalganj</h2>
+            <p>Providing quality technical education and shaping future engineers with innovation and skills.</p>
+        </div>
+
+        
+        <div class="footer-section">
+            <h3>Our Location</h3>
+            <p>Mantengrahi, PO Maharani,<br>Via Baikunthpur,<br>Gopalganj, Bihar - 841409</p>
+
+            <!-- Google Map -->
+            <iframe 
+                src="https://maps.google.com/maps?q=BKNS%20Government%20Polytechnic%20Gopalganj&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="100%" 
+                height="150" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 BKNS Government Polytechnic Gopalganj | All Rights Reserved</p>
+    </div>
+</footer>
+
+</div>
+
+</body>
+</html>
