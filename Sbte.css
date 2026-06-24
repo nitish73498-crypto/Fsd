@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f2f4f8;
+}
+/* Navigation bar container */
+.navbar {
+  background-color: #1a237e; /* Deep blue background matching the banner */
+  padding: 12px 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Student Service Request Button */
+.service-request-btn {
+  display: inline-block;
+  background-color: transparent;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 16px;
+  border: 1px solid #3f51b5; /* Lighter blue border outline */
+  border-radius: 4px; /* Slight rounded corners */
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.service-request-btn:hover {
+  background-color: #3f51b5;
+  border-color: #ffffff;
+  cursor: pointer;
+}
+
+
+.main-container{
+    display:flex;
+    justify-content:space-between;
+    gap:20px;
+    padding:20px;
+}
+
+.box{
+    background:rgb(255, 255, 255);
+    border:1px solid #ccc;
+    border-radius:8px;
+    width:32%;
+    padding:15px;
+    min-height:350px;
+}
+.box h2{
+    background:#283593;
+    color:rgb(255, 255, 255);
+    padding:10px;
+    text-align:center;
+    margin:-15px -15px 15px -15px;
+    border-radius:8px 8px 0 0;
+}
+
+
+.helpdesk{
+    margin-top:20px;
+    border-top:2px solid #ddd;
+    padding-top:10px;
+}
+
+.helpdesk h3{
+    color:green;
+    margin-bottom:10px;
+}
+
+.login-box input{
+    width:100%;
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+.login-box button{
+    width:100%;
+    padding:10px;
+    background:#5c6bc0;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+.login-box button:hover{
+    background:#3949ab;
+}
+
+.links{
+    margin-top:15px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.links a{
+    text-decoration:none;
+    color:#283593;
+    font-size:14px;
+}
+
+footer{
+    background:#283593;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
